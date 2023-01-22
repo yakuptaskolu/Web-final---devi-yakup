@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3b3e4e;
+    width: 100%;
+    margin-bottom: 45px;
+    height: 1000px;
+
+}
+
+.container {
+    width: 1320px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    padding: 65px 0;
+}
+
+.text-white {
+    color: white;
+}
+
+.button button {
+    border: 1px white solid;
+    padding: 22px 30px;
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.sportss {
+    padding-bottom: 150px;
+}
+
+.button button:hover {
+
+    background-color: yellow;
+    color: black !important;
+    border: 1px yellow solid;
+    transition: all 0.3s ease;
+
+}
+
+.img-1 img {
+
+    width: 100%;
+    max-height: 78vh;
+    min-height: 800px;
+}
+
+.img-2 img {
+    width: 100%;
+    max-height: 78vh;
+    min-height: 800px;
+
+
+
+}
+section{
+    padding-top: 100px;
+}
+.text {
+    line-height: 65px;
+}
+
+.text h1 {
+    font-size: 60px;
+    color: rgba(216, 214, 214, 0.472);
+}
+
+.text span {
+
+    font-weight: bold;
+}
+
+.spor {
+
+    margin: 45px 15px;
+    padding: 15px 45px;
+    border-radius: 10px;
+}
+
+.spor-1 {
+
+    background: linear-gradient(180deg, #35ad79 0%, #f1e774 100%);
+
+}
+
+.spor-2 {
+    background-image: linear-gradient(176deg, #98dfa4 0%, #54b2f4 100%);
+
+}
+
+.spor-3 {
+    background-image: linear-gradient(177deg, #fceb5a 0%, #f8708d 100%);
+}
+
+.spor-4 {
+    background-image: linear-gradient(177deg, #516093 0%, #698fc3 100%);
+}
+
+.spor-5 {
+    background-image: linear-gradient(176deg, #f2a346 0%, #f8c88a 100%);
+}
+
+.spor-6 {
+    background-image: linear-gradient(176deg, #4141bc 0%, #61d5d6 100%);
+}
+
+.text-center {
+    text-align: center;
+    line-height: 45px;
+}
+
+article h1 {
+    font-size: 45px;
+}
+
+.pages-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0;
+
+}
+
+.pages-menu ul li {
+
+    list-style-type: none;
+    margin: 0 35px;
+}
+
+.pages-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+
+}
+
+.active {
+    color: #fbe415 !important;
+    border-bottom: 3px solid #fceb5a !important;
+}
+
+.page img {
+    width: 100%;
+}
+
+.page {
+    margin: 15px 15px;
+}
+
+.cursor {
+    cursor: url("img/donkey.png"), auto;
+}
+
+footer {
+    background-color: #5e5f6a;
+    margin-top: 100px;
+}
+
+.img-footer {
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transform: none;
+    object-fit: cover;
+    object-position: 33% center;
+}
+
+.bottom-details {
+    height: 100px;
+    background-color: #4c4d57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.img-and-content {
+    display: flex;
+}
+
+.img-and-content .img-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5e5f6a;
+}
+
+.left-contact {
+    flex: 6;
+    display: block;
+    margin: auto 0;
+}
+
+.icons {
+    display: flex;
+}
+
+.message,
+.included,
+.updates {
+    display: flex;
+}
+
+.icons {
+    background-color: #6e6f7a;
+    display: flex;
+    padding-left: 350px;
+    height: 130px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.icon {
+    font-size: 80px;
+    padding: 25px 30px 0 0;
+    color: #9a9aa2;
+}
+
+.img-footer img {
+    width: 100%;
+}
+
+.img-footer {
+    flex: 6;
+}
+
+.message {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.message h4 {
+    font-size: 24px;
+    padding-top: 10px;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.message p {
+    margin-top: 17px;
+    padding-right: 150px;
+    letter-spacing: .075em;
+    line-height: 25px;
+    color: #978e87;
+    font-size: 15px;
+}
+
+.baslik {
+    padding-left: 25px;
+}
